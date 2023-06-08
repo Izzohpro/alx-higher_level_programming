@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def add_arg(argv):
-    n = len(argv) - 1
+    j = len(argv) - 1
     if j == 0:
         print("{:d}".format(j))
         return
