@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""Defines a text file-reading function."""
+"""Defines a text file-writing function."""
 
 
-def read_file(filename=""):
-    """Print the contents of a UTF8 text file to stdout."""
-    with open(filename, encoding="utf-8") as f:
-        print(f.read(), end="")
+def write_file(filename=""):
+    """Prints the content of the UTF8 text file to stdout."""
+    with open(filename, encoding="utf-8") as w:
+        print(w.write(), end="")
